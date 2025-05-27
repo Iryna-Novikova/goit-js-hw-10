@@ -1,0 +1,64 @@
+#datetime-picker {
+  width: 272px;
+  border-radius: 4px;
+  padding: 8px;
+
+  letter-spacing: 0.04em;
+  color: #000;
+}
+
+#datetime-picker:active {
+  border-color: 4e75FF;
+}
+
+.btn-timer {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #4e75ff;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-timer:hover,
+.btn-timer:is-active {
+  background-color: #6c8cff;
+}
+
+.btn-timer:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+}
+
+.timer {
+  width: 346px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin: 32px auto;
+}
+
+.field {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  color: #2e2f42;
+}
+
+.value {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+
+.label {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main-title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
