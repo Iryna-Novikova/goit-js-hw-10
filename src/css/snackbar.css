@@ -18,32 +18,40 @@
 }
 
 .form-input {
+  display: block;
+  box-sizing: border-box;
   border: 1px solid #808080;
   border-radius: 4px;
   width: 360px;
   height: 40px;
+  padding: 8px;
+  margin-top: 8px;
 }
 
 .form-fieldset {
+  display: block;
+  box-sizing: border-box;
   width: 360px;
   border-radius: 4px;
-  /* font-size: 16px; */
   display: flex;
   gap: 48px;
   justify-content: center;
-  padding: 12px 24px;
+  padding: 12px 12px;
   margin-bottom: 24px;
 }
 
 .form-fieldset-legend {
   text-align: left;
   color: #2e2f42;
-  /* font-size: 16px; */
-  padding: 0px;
+}
+
+.form-fieldset-legend:hover {
+  color: #000;
+  font-weight: bold;
 }
 
 .form-radio:checked {
-  color: #4e75ff;
+  background-color: #4e75ff;
 }
 
 /* .form-label-radio {
@@ -63,4 +71,8 @@
 .sbmt-btn:hover,
 .sbmt-btn:focus {
   background-color: #6c8cff;
+}
+
+.snack-title {
+  margin-bottom: 0;
 }
